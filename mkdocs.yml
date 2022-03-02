@@ -1,0 +1,58 @@
+# official tutorial 
+# mkdocs-material: https://squidfunk.github.io/mkdocs-material/
+# mkdocs: https://www.mkdocs.org/user-guide/configuration/
+
+site_name: A Dark Forest Game
+theme:
+  name: material
+  #  favicon: attachment/portrait.png
+  language: en
+  features:
+    - navigation.expand 
+    - navigation.tracking
+    - navigation.instant
+    - navigation.indexes
+    - navigation.top
+    # - tabs 
+extra:
+  homepage: https://github.com/VAD37/the-dark-forest   
+markdown_extensions: 
+  - attr_list # https://squidfunk.github.io/mkdocs-material/reference/images/
+  - pymdownx.tabbed  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
+  - nl2br # newline-to-break 
+  - toc:
+      permalink: '#' 
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  # - pymdownx.emoji:
+      # emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+plugins:
+  - search
+  - roamlinks 
+    #- autolinks 
+  - exclude:
+      glob:
+        - "*.tmp"
+        - "*.pdf"
+        - "*.gz"
+      regex:
+        - '.*\.(tmp|bin|tar)$'
