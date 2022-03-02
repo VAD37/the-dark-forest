@@ -1,10 +1,10 @@
-# The Dark Forest
+# The Dark Forest (Draft)
 
 A game designed for ETHGlobal #Hackathon BuildQuest 2022.
 
 The Dark Forest is an experimental 100% smart-contract code based on Rinkeby network.
 It is designed to explore the current limitation of full blockchain game and build the framework for the next genre of [[Play To Earn]] game.
-Due to the limitation of #Hackathon, the game scope will just be a simple prototype while this docs clarify the vision of a true blockchain of Ethereum would look like.
+Due to the limitation of #Hackathon, the game scope will just be a simple prototype while this docs clarify the vision of a true blockchain on Ethereum would look like.
 
 ## What is this game about?
 
