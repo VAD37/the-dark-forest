@@ -8,7 +8,7 @@ foam_template:
 
 # scenario
 
-Player decision can be quite unpredicted. With this kind of #meme game, we expect some irrational player action will make the entire game [[ecosystem]] to throw in chaos.
+Player decision can be quite unpredicted. With this kind of meme game, we expect some irrational player action will make the entire game [[ecosystem]] to throw in chaos.
 
 ## Dark nature
 

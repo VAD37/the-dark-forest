@@ -8,7 +8,7 @@ Due to the limitation of #Hackathon, the game scope will just be a simple protot
 
 ## What is this game about?
 
-The dark forest is a #meme civilization building, strategy game. With [[self-contained-economy]] and [[community-ownership]] in mind as [[core-value]], along with the nature of blockchain [[transparency]] as a whole, this create some unique game mechanics.
+The dark forest is a [[meme]] civilization building, strategy game. With [[self-contained-economy]] and [[community-ownership]] in mind as [[core-value]], along with the nature of blockchain [[transparency]] as a whole, this create some unique game mechanics.
 
 The player will be given a unique [[NFT]] space to develop their civilization.
 Each civ can make #choice for their [[specialty]] path to focus on.
