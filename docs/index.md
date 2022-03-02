@@ -17,7 +17,7 @@ It can be a focus on [[economy]] which give player an exponential growth effect 
 Or it can be a focus on [[war]], which allow player to invade other to stole all their [[locked resources]] and [[token]].
 
 Every victory invader have the #choice to annihilate the defender. By that means NFT civ can be completely burned by other forever.
-The penalty for losing is designed to be this extreme is the [[core value]] that make blockchain game **unique** from previous game generation.
+The penalty for losing is designed to be this extreme is the [[core value]] that make blockchain game **unique** from previous game generation. By removing the capability of [[trust]].
 
 This allow the possibility of some **dark** [[scenario]] that can happen. Hence the name of the game (inspired by the actual novel).
 
