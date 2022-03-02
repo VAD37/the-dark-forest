@@ -1,5 +1,5 @@
 # The Dark Forest
 
-A blockchain game with a twist.
+A blockchain game with a twist. Design for hackathon ETHGlobal BuildQuest
 
-[Github Pages published docs](https://vad37.github.io/the-dark-forest/)
+Go to [Github Pages published docs](https://vad37.github.io/the-dark-forest/)
