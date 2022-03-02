@@ -37,3 +37,7 @@ Current application is Unity Engine with Nethermind as the blockchain tools.
 - Can create [[commander]] with unique name and image asset through IPFS if possible.
 - Player can edit their info, description, image, anthem, etc of their civ.
 - Show timer of attack and defense or army movement.
+
+## Building features
+
+WIP
