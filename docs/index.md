@@ -4,7 +4,7 @@ A game designed for ETHGlobal #Hackathon BuildQuest 2022.
 
 The Dark Forest is an experimental 100% smart-contract code based on Rinkeby network.
 It is designed to explore the current limitation of full blockchain game and build the framework for the next genre of [[play-to-earn]] game.
-Due to the limitation of #Hackathon, the game scope will just be a simple prototype while this docs clarify the vision of a true blockchain on Ethereum would look like.
+Due to the time frame of #Hackathon, the game scope will just be a simple prototype while this docs clarify the vision of a true blockchain on Ethereum would look like.
 
 ## What is this game about?
 
@@ -17,7 +17,7 @@ It can be a focus on [[economy]] which give player an exponential growth effect 
 Or it can be a focus on [[war]], which allow player to invade other to loot [[locked resources]] and [[token]].
 
 Every victory invader have the [[choice]] to annihilate the defender. By that means the NFT contract can be completely burned/self-destruct by other forever.
-The consequence for losing is designed to be this devastating is the [[core-value]] that this game **unique** from previous game generation. By removing the capability of [[trust]].
+The consequence for losing is designed to be this devastating is the [[core-value]] that make this game **unique**. By removing the capability of [[trust]].
 
 This allow the possibility of some **dark** [[scenario]] that can happen. Hence the name of the game (inspired by the actual novel).
 
