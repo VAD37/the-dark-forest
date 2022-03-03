@@ -13,7 +13,7 @@ The dark forest is a [[meme]] civilization building, strategy game. With [[self-
 The player will be given a unique [[NFT]] space to develop their civilization.
 Each new civ can choose their [[specialty]] path to focus on.
 
-It can be a focus on [[economy]] which give player an exponential growth effect for their [[production]] later.
+Player can focus on [[economy]] which give player an exponential growth effect for their [[production]] later.
 Or it can be a focus on [[war]], which allow player to invade other to loot [[locked resources]] and [[token]].
 
 Every victory invader have the [[choice]] to annihilate the defender. By that means the NFT contract can be completely burned/self-destruct by other forever.
