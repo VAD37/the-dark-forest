@@ -19,7 +19,7 @@ To increase economic power, player required to get resources unique to other peo
 
 Since blockchain have full transparency, it is easy to track other people progress and even army. And attacking is almost instantly, this make no one is safe. It was designed this way to make the game more interesting. As anyone invade another player, they can extort other player for their resources or lost their NFTs forever.
 
-Or if every player decide that no one should invade and any form of aggression is not allowed, the game can practically end when everyone can reach the peak of economic power and minting infinite token until it reach 2^256.
+Or if every powerful player become peace keeper decide that no one should ever be invaded and any form of aggression is not allowed, the game can practically end when everyone can reach the peak of economic power and minting infinite token until it reach 2^256 which trigger [[endgame]].
 Or a few group of people can hold rare resources monopoly simply by destroying competition.
 
 The game was designed to be written in 100% smart contract. So player can make pact, alliance, or even vassalize other player.
