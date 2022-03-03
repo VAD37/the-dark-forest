@@ -13,4 +13,4 @@ By giving some intrinsic value to NFTs, player will not trade/sell their unique 
 
 ## Method
 
-- Allow customizing the value of NFTs. Some simple characteristics like image, name, description, etc. If player want to have a website for their own token (arweave web), we let them and show it on client. For this prototype project, a version of multiple images along with multiple descriptions are provided through IPFS seem reasonable choice.
+- Allow customizing the value of NFTs. Some simple characteristics like image, name, description, etc. If player want to have a website for their own token (Ex: arweave web), we let them and show it on client. For this prototype project, a version of multiple images along with multiple descriptions are provided through IPFS seem reasonable choice.
