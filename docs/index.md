@@ -6,8 +6,8 @@ This is a WIP.
 
 ## Project goals
 
-- Design and develop a [[P2E]] game with [[self-contained-economy]] and [[community-ownership]] in mind. Because these traits are what make blockchain game worth for a long time.
-- To make [[NFT]] stay true with [EIP-721](https://eips.ethereum.org/EIPS/eip-721) vision. Instead of rarity of NFT URI based-image rely on marketing value only, it should have both [[economic-value]] and [[attachment-value]] for [[P2E]] game to work.
+- Design and develop a [[P2E]] game with [[self-contained-economy]] and [[community-ownership]] in mind. Because these concepts are what make blockchain game worth for a long time.
+- To make [[NFT]] stay true with [EIP-721](https://eips.ethereum.org/EIPS/eip-721) vision. Instead of URI image NFT which rely on marketing value only, it should have both [[economic-value]] and [[attachment-value]] for [[P2E]] game to work.
 
 ## Game Concept
 
