@@ -21,11 +21,11 @@ Since blockchain have full transparency, it is easy to track other people progre
 
 If every powerful player become peace keeper, they decide that no one should ever be invaded or any form of aggressions are not allowed. This create [[endgame]] situation when everyone can reach the peak of economic power. Allowing infinite token mint until it reach overflow value 2^256 which trigger selfdestruct condition. This is the end of the game, every NFTs will be rendered useless.
 
-The game was designed to be written in 100% smart contract. So player can make pact, alliance, or even vassalize other player.
+The game was designed to be written in 100% smart contract. So player can make pact, alliance, or even vassalize other player as their modding need required.
 
-The goal of players either to [[endgame]] by overflowing [[master-contract]] to call selfdestruct function or to conquer the world.
+The goal of players either to [[endgame]] by overflowing [[master-contract]] or to conquer the world.
 
-Best case scenario, anyone attempted to trigger endgame condition will be punished by other player who do not want their NFTs destroyed. Or even better, people who lost their NFTs decided to trickle down the doomday clock by sending their token to [[master-contract]].
+Best case scenario, anyone attempted to trigger endgame condition will be punished by other player who do not want their NFTs destroyed. Or even better, people who lost their NFTs decided to trickle down the doomday by sending their token to [[master-contract]].
 
 ## WIP docs
 
