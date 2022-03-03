@@ -31,6 +31,7 @@ Check [[war-mechanics]].
 [community-ownership]: references/community-ownership "community-ownership"
 [core-value]: references/core-value "core value"
 [NFT]: references/NFT "NFT"
+[core-value]: references/core-value "core value"
 [trust]: references/trust "trust"
 [scenario]: references/scenario "scenario"
 [contract-design]: references/contract-design "contract-design"
