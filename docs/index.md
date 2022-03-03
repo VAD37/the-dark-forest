@@ -27,6 +27,8 @@ The goal of players either to [[endgame]] by overflowing [[master-contract]] or 
 
 Best case scenario, anyone attempted to trigger endgame condition will be punished by other player who do not want their NFTs destroyed. Or even better, people who lost their NFTs decided to trickle down the doomday by sending their token to [[master-contract]].
 
+Or simply everyone have fun by being dick to each other.
+
 ## WIP docs
 
 [[core-value]]
