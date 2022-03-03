@@ -11,7 +11,7 @@ This is a WIP.
 
 ## Game Concept
 
-This is a P2E building management game resolve around trust. A game where peaceful player can develop their economy to generate new asset exponentially or warmonger player choose invade to destroy other. Every player always under the threat of getting their NFT **burn forever** if failed to defense themselves.
+This is a P2E building management game revolve around trust. A game where peaceful player can develop their economy to generate new asset exponentially or warmonger player choose invade to destroy other. Every player always under the threat of getting their NFT **burn forever** if failed to defense themselves.
 
 ## Gameplay concept
 
