@@ -1,4 +1,4 @@
-# First Draft (removed)
+# First Draft (obsolete)
 
 The Dark Forest is an experimental 100% smart-contract code based on Rinkeby network.
 It is designed to explore the current limitation of full blockchain game and build the framework for the next genre of [[P2E]] game.
