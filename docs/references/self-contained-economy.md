@@ -1,7 +1,7 @@
 # self-contained-economy
 
 This concept was pointed out by the developer of Axie Infinity game.
-I think this is the [[core-value]] success of any [[play-to-earn]] game.
+I think this is the [[core-value]] success of any [[P2E]] game.
 
 Player must do some form of action or work to create value. And these value must be used in this same economy. Either by consuming themselves or give to another player that want to join this economy.
 

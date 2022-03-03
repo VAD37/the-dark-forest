@@ -11,7 +11,7 @@ foam_template:
 The value that make **The Dark Forest** unique and successful. This cannot be changed.
 
 - [[trust]]: devalue what make Bitcoin great to give room for appreciation of decentralization.
-- [[self-contained-economy]]: the core of [[play-to-earn]] game.
+- [[self-contained-economy]]: the core of [[P2E]] game.
 - [[community-ownership]]: lesson learned from CryptoKitties.
 - The power of [[autonomy]] is extremely important to make this game work. This is the reason why this game logic must be written in 100% smart-contract. So player can make concession what part of self that can be lost to retain their stake ingame instead losing everything after invasion.
 
