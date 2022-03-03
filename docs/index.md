@@ -26,7 +26,7 @@ The player will be given a unique [[NFT]] space to develop their civilization.
 Each new civ can choose their [[specialty]] path to focus on.
 
 Player can focus on [[economy]] which give player an exponential growth effect for their [[production]] later.
-Or it can be a focus on [[war]], which allow player to invade other to loot [[locked resources]] and [[token]].
+Or it can be a focus on [[war-system]], which allow player to invade other to loot [[locked resources]] and [[token]].
 
 Every victory invader have the [[choice]] to annihilate the defender. By that means the NFT contract can be completely burned/self-destruct by other forever.
 The consequence for losing is designed to be this devastating is the [[core-value]] that make this game **unique**. By removing the capability of [[trust]].
