@@ -10,7 +10,7 @@ Project goals:
 
 -
 
-## Concept
+## Game Concept
 
 ### Old Draft
 
