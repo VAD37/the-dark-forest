@@ -2,8 +2,6 @@
 type: 
 keywords: 
 tags: 
-foam_template:
-  filepath: 'docs/references/attachment-value.md' 
 ---
 
 # attachment-value
