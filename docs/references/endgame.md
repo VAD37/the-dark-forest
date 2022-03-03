@@ -9,6 +9,7 @@ foam_template:
 # endgame
 
 To finish the game. Destroy the master contract by overflow the balance of token.
+Everyone NFTs will be lost forever.
 
 ```
     IERC20 token;
