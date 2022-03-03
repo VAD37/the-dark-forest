@@ -1,0 +1,589 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>A Dark Forest Game</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.4dd2dd8d.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#a-dark-nature-game" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="." title="A Dark Forest Game" class="md-header-nav__button md-logo" aria-label="A Dark Forest Game">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            A Dark Forest Game
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              A Dark Nature game
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="A Dark Forest Game" class="md-nav__button md-logo" aria-label="A Dark Forest Game">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    A Dark Forest Game
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        A Dark Nature game
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="." title="A Dark Nature game" class="md-nav__link md-nav__link--active">
+      A Dark Nature game
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-goals" class="md-nav__link">
+    Project goals
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-concept" class="md-nav__link">
+    Game Concept
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gameplay-concept" class="md-nav__link">
+    Gameplay concept
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wip-docs" class="md-nav__link">
+    WIP docs
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="old%20draft/" title="First Draft (obsolete)" class="md-nav__link">
+      First Draft (obsolete)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      References
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="References" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        References
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/NFT/" title="NFT" class="md-nav__link">
+      NFT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/P2E/" title="Play To Earn" class="md-nav__link">
+      Play To Earn
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/attachment-value/" title="attachment-value" class="md-nav__link">
+      attachment-value
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/autonomy/" title="autonomy" class="md-nav__link">
+      autonomy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/client-design/" title="client design" class="md-nav__link">
+      client design
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/community-ownership/" title="community-ownership" class="md-nav__link">
+      community-ownership
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/contract-design/" title="contract-design" class="md-nav__link">
+      contract-design
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/core-value/" title="core value" class="md-nav__link">
+      core value
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/economic-value/" title="economic-value" class="md-nav__link">
+      economic-value
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/endgame/" title="endgame" class="md-nav__link">
+      endgame
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/master-contract/" title="Master contract" class="md-nav__link">
+      Master contract
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/scenario/" title="scenario" class="md-nav__link">
+      scenario
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/self-contained-economy/" title="self-contained-economy" class="md-nav__link">
+      self-contained-economy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="references/trust/" title="trust" class="md-nav__link">
+      trust
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-goals" class="md-nav__link">
+    Project goals
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-concept" class="md-nav__link">
+    Game Concept
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gameplay-concept" class="md-nav__link">
+    Gameplay concept
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wip-docs" class="md-nav__link">
+    WIP docs
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="a-dark-nature-game">A Dark Nature game<a class="headerlink" href="#a-dark-nature-game" title="Permanent link">#</a></h1>
+<p>A game designed for ETHGlobal #Hackathon BuildQuest 2022. <a href="https://github.com/VAD37/the-dark-forest">Source</a></p>
+<p>This is a WIP.</p>
+<h2 id="project-goals">Project goals<a class="headerlink" href="#project-goals" title="Permanent link">#</a></h2>
+<ul>
+<li>Design and develop a <a href="references/P2E/">P2E</a> game with <a href="references/self-contained-economy/">self-contained-economy</a> and <a href="references/community-ownership/">community-ownership</a> in mind. Because these concepts are what make blockchain game worth for a long time.</li>
+<li>To make <a href="references/NFT/">NFT</a> stay true with <a href="https://eips.ethereum.org/EIPS/eip-721">EIP-721</a> vision. Instead of URI image NFT which rely on marketing value only, it should have both <a href="references/economic-value/">economic-value</a> and <a href="references/attachment-value/">attachment-value</a> for <a href="references/P2E/">P2E</a> game to work.</li>
+</ul>
+<h2 id="game-concept">Game Concept<a class="headerlink" href="#game-concept" title="Permanent link">#</a></h2>
+<p>This is a P2E building management game revolve around trust. A game where peaceful player can develop their economy to generate new asset exponentially or warmonger player choose invade to destroy other. Every player always under the threat of getting their NFT <strong>burn forever</strong> if failed to defense themselves.</p>
+<h2 id="gameplay-concept">Gameplay concept<a class="headerlink" href="#gameplay-concept" title="Permanent link">#</a></h2>
+<p>To increase economic power, player required to get resources unique to other people NFTs. The starting resources is random generated. This force player to cooperate with other player to generate new asset.</p>
+<p>Since blockchain have full transparency, it is easy to track other people progress and even army. And attacking is almost instantly, this make no one is safe. It was designed this way to make the game more interesting. As anyone invade another player, they can extort other player for their resources or lost their NFTs forever.</p>
+<p>If every powerful player become peace keeper, they decide that no form of aggression is allowed. This create <a href="references/endgame/">endgame</a> situation when anyone can reach the peak of economic power. Allowing infinite token mint until it reach overflow value 2^256 which trigger selfdestruct condition. This is the end of the game, every NFTs will be rendered useless.</p>
+<p>The game was designed to be written in 100% smart contract. So player can make pact, alliance, or even vassalize other player as their modding need required.</p>
+<p>The goal of players either to <a href="references/endgame/">endgame</a> by overflowing <a href="references/master-contract/">master-contract</a> or to conquer the world.</p>
+<p>Best case scenario, anyone attempted to trigger endgame condition will be punished by other player who do not want their NFTs destroyed. Or even better, people who lost their NFTs decided to trickle down the doomday by sending their token to <a href="references/master-contract/">master-contract</a>.</p>
+<p>Or simply everyone have fun by being dick to each other.</p>
+<h2 id="wip-docs">WIP docs<a class="headerlink" href="#wip-docs" title="Permanent link">#</a></h2>
+<p><a href="references/core-value/">core-value</a><br />
+<a href="references/client-design/">client-design</a><br />
+<a href="references/contract-design/">contract-design</a><br />
+<a href="references/master-contract/">master-contract</a><br />
+[[building-gameplay]]<br />
+[[war-system]]<br />
+[[specialty]]<br />
+[[kudo-system]]<br />
+[[growth-system]]<br />
+[[upgrade-system]]<br />
+[[customNFT-system]]</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+        
+          <a href="old%20draft/" title="First Draft (obsolete)" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                First Draft (obsolete)
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: ".",
+          features: ["navigation.expand", "navigation.tracking", "navigation.instant", "navigation.indexes", "navigation.top"],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
